@@ -234,13 +234,26 @@ button:focus {
 .our-team {
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
+  font-family: "Roboto";
 }
 
 .workers {
   background-color: var(--third-background-color);
+  margin-top: 94px;
 }
 
+.workers-list {
+  border: 1px solid var(--grey-line-color);
+}
 
+.team-section {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+}
 
 .first-name {
   width: 72px;
