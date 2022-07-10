@@ -56,8 +56,8 @@ body {
 
   color: var(--brand-color, black);
   background: var(--second-color, white);
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  /* padding: 0; */
   width: 1600px;
   height: 1880px;
 }
@@ -160,6 +160,14 @@ button:focus {
   background-color: var(--second-background-color);
   width: 1600px;
   height: 600px;
+  display: block;
+  margin: auto;
+}
+
+.main-text-content {
+  display: block;
+  text-align: center;
+  padding: 200px 452px 280px 452px;
 }
 
 .title-page {
@@ -175,11 +183,17 @@ button:focus {
   width: 200px;
   height: 50px;
   cursor: pointer;
-  height: 38px;
+
   color: var(--brand-color, black);
   border: var(--third-background-color);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
+  font-family: "Roboto";
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 41px 10px 42px;
+  margin-top: 30px;
 }
 
 .style-button-main-page {
@@ -201,15 +215,20 @@ button:focus {
 
 .profile-content {
   width: 270px;
-  height: 75px;
-
+  height: fit-content;
+  padding-top: 10px;
   color: var(--description-color);
   font-size: 14px;
+  gap: 30px;
 }
 
 .about-us {
   font-size: 36px;
   font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .our-team {
@@ -220,6 +239,8 @@ button:focus {
 .workers {
   background-color: var(--third-background-color);
 }
+
+
 
 .first-name {
   width: 72px;
@@ -332,4 +353,23 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .footer-contacts-number {
   padding-top: 9px;
+}
+
+.short-description {
+  padding-top: 94px;
+}
+
+.description-lorem-ipsum {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.main-page-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
