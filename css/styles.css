@@ -42,6 +42,7 @@
   display: flex;
 }
 
+
 .header-contacts:hover,
 .header-contacts:active,
 .header-contacts:focus,
@@ -271,15 +272,18 @@ button:focus {
   height: 19px;
   font-size: 16px;
   font-weight: 500;
+  padding-top: 30px;
+  
 }
 
-.center-name {
+/* .center-name {
   text-align: center;
-}
+} */
 
 .proffesion {
   font-size: 16px;
-
+  text-align: center;
+  padding-top: 10px;
   color: var(--description-color);
 }
 
@@ -385,6 +389,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .short-description {
   padding-top: 94px;
+  height: 194px;
 }
 
 .description-lorem-ipsum {
