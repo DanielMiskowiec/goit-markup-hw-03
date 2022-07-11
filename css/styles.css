@@ -42,7 +42,6 @@
   display: flex;
 }
 
-
 .header-contacts:hover,
 .header-contacts:active,
 .header-contacts:focus,
@@ -273,12 +272,8 @@ button:focus {
   font-size: 16px;
   font-weight: 500;
   padding-top: 30px;
-  
-}
-
-/* .center-name {
   text-align: center;
-} */
+}
 
 .proffesion {
   font-size: 16px;
