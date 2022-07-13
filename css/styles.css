@@ -49,7 +49,6 @@
 .footer-contacts:active,
 .footer-contacts:focus {
   color: var(--active-color);
-  
 }
 
 body {
@@ -98,7 +97,6 @@ body {
   background-color: var(--second-background-color);
   width: 100%;
   /* height: 252px; */
-  
 }
 
 .footer-color {
@@ -161,7 +159,6 @@ button:focus {
 }
 
 .portfolio-button:hover {
-  
   box-shadow: 0px 2px 10px var(--brand-color);
 }
 
@@ -272,6 +269,7 @@ button:focus {
   justify-content: center;
   gap: 30px;
   padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .first-name {
@@ -390,6 +388,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .footer-contacts-number {
   padding-top: 9px;
+  padding-bottom: 60px;
 }
 
 .short-description {
