@@ -18,7 +18,7 @@
   text-decoration: none;
   color: var(--description-color);
   width: 135px;
-  height: 16px;
+  /* height: 16px; */
   font-weight: 500;
   font-size: 14px;
 }
@@ -31,7 +31,7 @@
   text-decoration: none;
   color: var(--description-color);
   width: 135px;
-  height: 16px;
+  /* height: 16px; */
   font-weight: 500;
   font-size: 14px;
 }
@@ -97,7 +97,8 @@ body {
 .footer {
   background-color: var(--second-background-color);
   width: 100%;
-  height: 252px;
+  /* height: 252px; */
+  
 }
 
 .footer-color {
@@ -119,7 +120,7 @@ button:focus {
 .address {
   font-style: normal;
   width: 1600px;
-  height: 82px;
+  /* height: 82px; */
 
   font-size: 14px;
   padding-left: 215px;
@@ -167,7 +168,7 @@ button:focus {
 .main-title-web {
   background-color: var(--second-background-color);
   width: 1600px;
-  height: 600px;
+  /* height: 600px; */
   display: block;
   margin: auto;
 }
@@ -181,7 +182,7 @@ button:focus {
 .title-page {
   color: var(--second-color, white);
   width: 696px;
-  height: 120px;
+  /* height: 120px; */
   font-weight: 900;
   font-size: 44px;
 }
@@ -250,7 +251,7 @@ button:focus {
 .workers {
   background-color: var(--third-background-color);
   margin-top: 94px;
-  height: 648px;
+  /* height: 648px; */
 }
 
 .workers-list {
@@ -321,7 +322,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 .header {
   display: flex;
   width: 1600px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .buttons {
