@@ -49,6 +49,7 @@
 .footer-contacts:active,
 .footer-contacts:focus {
   color: var(--active-color);
+  
 }
 
 body {
@@ -60,7 +61,7 @@ body {
   /* padding: 0; */
   width: 1600px;
   /* height: 1880px; */
-  height: 2349px;
+  /* height: 2349px; */
 }
 
 .logo {
@@ -112,6 +113,7 @@ button:active,
 button:focus {
   color: var(--second-color, white);
   background-color: var(--active-color);
+  /* box-shadow: 5px 5px 5px; */
 }
 
 .address {
@@ -155,6 +157,11 @@ button:focus {
   border: var(--third-background-color);
   font-weight: 500;
   font-size: 16px;
+}
+
+.portfolio-button:hover {
+  
+  box-shadow: 0px 2px 10px var(--brand-color);
 }
 
 .main-title-web {
@@ -247,7 +254,7 @@ button:focus {
 }
 
 .workers-list {
-  border: 1px solid var(--grey-line-color);
+  /* border: 1px solid var(--grey-line-color); */
   width: 270px;
   height: 368px;
   margin: 0;
