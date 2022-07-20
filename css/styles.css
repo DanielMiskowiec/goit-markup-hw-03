@@ -318,7 +318,7 @@ h1 h2 h3 h4 h5 h6 p ul {
   margin-top: 84px;
   flex-wrap: wrap;
   gap: 30px;
-  /* justify-content: center; */
+
   margin-bottom: 94px;
 }
 
@@ -330,9 +330,6 @@ h1 h2 h3 h4 h5 h6 p ul {
 .container {
   width: 1200px;
   margin: 0 auto;
-
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .contacts-pack {
